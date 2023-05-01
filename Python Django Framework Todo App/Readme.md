@@ -15,22 +15,22 @@ python manage.py migrate
 python manage.py runserver
 python manage.py startapp todolist
 ```
-`.`add 'todolist' to INSTALLED_APPS
+- add 'todolist' to INSTALLED_APPS
 
 <h2>Add views</h2>
 
-`.`implement todolist.views.py and create todolist.urls.py
-`.`add urls to todoapp.urls.py
+- implement todolist.views.py and create todolist.urls.py
+- add urls to todoapp.urls.py
 
 <h2>Add templates</h2>
 
-`.`add templates folder and file
-`.`add "templates" to DIR in settings.py
-`.`modify view: return render...
+- add templates folder and file
+- add "templates" to DIR in settings.py
+- modify view: return render...
 
 <h2>Add models</h2>
 
-`.`implement todolist.models.py
+- implement todolist.models.py
 
 <h2>Put together</h2>
 
@@ -40,14 +40,14 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-`*`Adding models to the administration site:
-`.`todolist.admin.py: admin.site.register(Todo)
-`*`login to admin
+- Adding models to the administration site:
+- - todolist.admin.py: admin.site.register(Todo)
+- login to admin
 
 <h2>add template</h2>
 
-`*`add {% csrf_token %} to template
+- add {% csrf_token %} to template
 
 <h2>CRUD</h2>
 
-`*`implement views
+- implement views
