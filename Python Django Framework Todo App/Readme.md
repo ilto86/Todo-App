@@ -41,7 +41,7 @@ python manage.py createsuperuser
 ```
 
 - Adding models to the administration site:
-- - todolist.admin.py: admin.site.register(Todo)
+ - todolist.admin.py: admin.site.register(Todo)
 - login to admin
 
 <h2>add template</h2>
